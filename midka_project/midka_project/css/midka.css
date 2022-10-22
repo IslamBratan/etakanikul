@@ -1,0 +1,950 @@
+.back1 {
+    background: url(https://static.tildacdn.com/tild6636-3432-4565-b830-313034333238/IMG_4106.jpg) no-repeat;
+    background-size: 100vw;
+    margin-top: -4.55vw;
+}
+
+.back2 {
+    background: url(https://thumb.tildacdn.com/tild6362-3035-4937-b463-333164383561/-/format/webp/photo.png) no-repeat;
+    background-size: 100vw;
+    height: 85.2vw;
+}
+
+.element {
+    color: white;
+    cursor: pointer;
+    font-size: 1.2vw;
+    margin-left: 13.5vw;
+    text-decoration: none;
+}
+
+.menu {
+    margin-top: 5.8vw;
+    margin-right: 12vw;
+    word-spacing: 2vw;
+    text-align: right;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu .yellow:hover, .menu .cuo {
+    color: white;
+    font-size: 1.0vw;
+    font-family: "Gilroy", Arial, sans-serif;
+}
+
+.menu .yellow {
+    color: yellow;
+    font-size: 1.0vw;
+    font-family: "Gilroy", Arial, sans-serif;
+}
+
+.menu a {
+    color: white; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+.menu a:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 1px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.3s; /* Время эффекта */
+}
+
+.menu a:hover:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 1px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.3s; /* Время эффекта */
+}
+
+.text1 p {
+    margin-top: 3.9vw;
+    margin-left: 13vw;
+    color: #fff628;
+    font-size: 4.9vw;
+    font-family: 'Gilroy', Arial, sans-serif;
+    letter-spacing: 0.1vw;
+    line-height: 1.00;
+    font-weight: 400;
+}
+
+.text1 i {
+    font-family: 'Playfair Display', serif;
+}
+
+.text2 {
+    color: white;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 1.3vw;
+    margin-left: 13vw;
+}
+
+.text3 {
+    width: 73vw;
+    margin-top: 42vw;
+    color: #d71212;
+}
+
+.text3 p {
+    font-size: 5.5vw;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.15vw;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.text3 h4 {
+    text-align: end;
+    margin-top: -9.5vw;
+}
+
+.it {
+    margin-top: 5.9vw;
+    border-radius: 2.5vw;
+    height: 35vw;
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.item1 {
+    background-image: url(https://thumb.tildacdn.com/tild6134-3763-4861-a130-613932316465/-/cover/560x560/center/center/-/format/webp/photo.jpg);
+}
+
+.item1:hover {
+    background-image: url(https://static.tildacdn.com/tild3338-3034-4331-b633-323831343464/photo.jpg);
+}
+
+.spanporf, .spanporf2, .spanporf3, .spanporf4, .spanporf5, .spanporf6 {
+    margin-top: 2.3vw;
+}
+
+.texting, .texting2, .texting3, .texting4, .texting5, .texting6 {
+    color: red;
+    font-family: 'Gilroy', Arial, sans-serif;
+    margin-top: -3.2vw;
+    font-size: 1.3vw;
+}
+
+.spanportfolio {
+    background-color: white;
+    color: red;
+    border: 0.1vw solid red;
+    border-radius: 30vw;
+    padding: 0.6vw 0.9vw;
+    font-size: 0.85vw;
+    margin-left: 26vw;
+}
+
+.oic2 {
+    margin-left: 38vw;
+    margin-top: -48.1vw;
+}
+
+.item2 {
+    background-image: url(https://thumb.tildacdn.com/tild6466-6166-4433-b866-373266663763/-/cover/560x560/center/center/-/format/webp/89.jpg);
+}
+
+.item2:hover {
+    background-image: url(https://static.tildacdn.com/tild3564-6331-4866-b831-303562393638/-1.jpg);
+}
+
+.spanportfolio1 {
+    background-color: white;
+    color: red;
+    border: 0.1vw solid red;
+    border-radius: 30vw;
+    padding: 0.6vw 0.9vw;
+    font-size: 0.85vw;
+    width: 4.9vw;
+    margin-left: 17.5vw;
+    margin-top: -1.8vw;
+}
+
+.spanportfolio2 {
+    background-color: white;
+    color: red;
+    border: 0.1vw solid red;
+    border-radius: 30vw;
+    padding: 0.6vw 0.9vw;
+    font-size: 0.85vw;
+    margin-left: 25vw;
+}
+
+.item3 {
+    background-image: url(https://thumb.tildacdn.com/tild3862-3637-4934-b363-333932306530/-/cover/560x560/center/center/-/format/webp/photo.jpg);
+}
+
+.item3:hover {
+    background-image: url(https://static.tildacdn.com/tild3965-3937-4266-b931-346539363637/-2.jpg);
+}
+
+.spanportfolio3, .spanportfolio6, .spanportfolio7, .spanportfolio9 {
+    background-color: white;
+    color: red;
+    border: 0.1vw solid red;
+    border-radius: 30vw;
+    padding: 0.6vw 0.9vw;
+    font-size: 0.85vw;
+    margin-left: 26.5vw;
+}
+
+.spanportfolio4 {
+    background-color: white;
+    color: red;
+    border: 0.1vw solid red;
+    border-radius: 30vw;
+    padding: 0.6vw 0.9vw;
+    font-size: 0.85vw;
+    width: 5.5vw;
+    margin-left: 18.5vw;
+    margin-top: -1.8vw;
+}
+
+.oic4 {
+    margin-left: 38vw;
+    margin-top: -49.5vw;
+}
+
+.item4 {
+    background-image: url(https://thumb.tildacdn.com/tild6461-6662-4338-b035-346339306565/-/cover/560x560/center/center/-/format/webp/photo.jpg);
+}
+
+.item4:hover {
+    background-image: url(https://static.tildacdn.com/tild3234-6231-4736-a137-343731383763/-3.jpg);
+}
+
+.spanportfolio5 {
+    background-color: white;
+    color: red;
+    border: 0.1vw solid red;
+    border-radius: 30vw;
+    padding: 0.6vw 0.9vw;
+    font-size: 0.85vw;
+    width: 2.7vw;
+    margin-left: 21.2vw;
+    margin-top: -1.8vw;
+}
+
+
+.item5 {
+    background-image: url(https://thumb.tildacdn.com/tild6236-6531-4737-b439-386637336139/-/cover/560x560/center/center/-/format/webp/photo.jpg);
+}
+
+.item5:hover {
+    background-image: url(https://static.tildacdn.com/tild3338-6639-4162-a239-646263313465/-5.jpg);
+}
+
+.oic6 {
+    margin-left: 38vw;
+    margin-top: -48.1vw;
+}
+
+.item6 {
+    background-image: url(https://thumb.tildacdn.com/tild3031-6365-4832-b537-303535343332/-/cover/560x560/center/center/-/format/webp/photo.jpg);
+}
+
+.item6:hover {
+    background-image: url(https://static.tildacdn.com/tild3930-3433-4634-b833-663165346261/-4.jpg);
+}
+
+.spanportfolio8 {
+    background-color: white;
+    color: red;
+    border: 0.1vw solid red;
+    border-radius: 30vw;
+    padding: 0.6vw 0.9vw;
+    font-size: 0.85vw;
+    width: 7.2vw;
+    margin-left: 16.8vw;
+    margin-top: -1.8vw;
+}
+
+.button {
+    width: 74vw;
+    height: 5.2vw;
+    background: white;
+    border: 0.15vw solid red;
+    margin-bottom: 9vw;
+    border-radius: 10vw;
+    margin-top: 3vw;
+    font-size: 1.1vw;
+    cursor: pointer;
+    color: red;
+}
+
+.button:hover {
+    font-family: 'Gilroy', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    background: #d71212;
+}
+
+.firstblock {
+    border-top: solid 0.1vw transparent;
+    width: 74vw;
+    margin-left: 17vw;
+    margin-top: -0.15vw;
+}
+
+.blocks1 {
+    border-top: solid 0.15vw white;
+    width: 72vw;
+    margin-left: 14vw;
+    height: 7.5vw;
+    margin-top: 9.5vw;
+}
+
+.main {
+    font-size: 5.5vw;
+    color: yellow;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin-top: 0.25vw;
+    font-weight: 400;
+}
+
+.collab {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 1.15vw;
+    color: white;
+    margin-top: -3.7vw;
+    margin-left: 58vw;
+    text-align: end;
+    font-weight: 550;
+}
+
+.blocks {
+    border-top: solid 0.15vw white;
+    width: 72vw;
+    margin-top: 3vw;
+    margin-left: 14vw;
+}
+
+.main2 {
+    color: white;
+    font-size: 2.5vw;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 1vw;
+}
+
+.mains2, .mains3, .mains4, .mains5 {
+    color: white;
+    font-size: 1.15vw;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.collab2 {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 1.15vw;
+    color: white;
+    margin-top: -1.5vw;
+    text-align: end;
+    font-weight: 600;
+}
+
+.main3 {
+    color: yellow;
+    font-size: 2.7vw;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin-top: 2vw;
+    font-weight: 400;
+}
+
+.main3 a, .main4 a, .main5 a {
+    color: white;
+}
+
+.collab3 {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 1.15vw;
+    color: white;
+    margin-top: -1.5vw;
+    text-align: end;
+    font-weight: 600;
+}
+
+.main4 {
+    color: yellow;
+    font-size: 2.6vw;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin-top: 2vw;
+    font-weight: 400;
+}
+
+.collab4 {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 1.15vw;
+    color: white;
+    margin-top: -1.5vw;
+    text-align: end;
+    font-weight: 600;
+}
+
+.main5 {
+    color: yellow;
+    font-size: 2.5vw;
+    font-family: 'Playfair Display', serif;
+    margin-top: 2vw;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.collab5 {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 1.15vw;
+    color: white;
+    margin-top: -1.5vw;
+    text-align: end;
+    font-weight: 600;
+}
+
+.obo {
+    border-top: solid 0.15vw red;
+    width: 72vw;
+    margin-left: 13vw;
+    height: 13vw;
+    margin-top: 8vw;
+}
+
+.obomne {
+    color: #ff2b2f;
+    font-size: 6vw;
+    font-family: 'Playfair Display', serif;
+    font-weight: 450;
+    margin-top: -0.2vw;
+    font-style: italic;
+}
+
+.proopyt {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 1.15vw;
+    color: red;
+    margin-top: -3vw;
+    text-align: end;
+    font-weight: 540;
+}
+
+.katyaphoto {
+    background-image: url(https://static.tildacdn.com/tild3063-3037-4233-b333-646461653763/photo.png);
+    margin-left: 13vw;
+    margin-top: -2vw;
+    height: 38vw;
+}
+
+.katyatext1 {
+    color: red;
+    font-family: 'Playfair Display', serif;
+    font-size: 3vw;
+    margin-left: 51vw;
+    margin-top: -36vw;
+    font-style: italic;
+}
+
+.katyatext2 {
+    color: red;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 1.25vw;
+    margin-left: 51vw;
+    margin-top: 2vw;
+}
+
+.katyatext3, .katyatext4 {
+    color: red;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 1.25vw;
+    margin-left: 51vw;
+    margin-top: 1.5vw;
+}
+
+.button2 {
+    width: 33vw;
+    height: 6vw;
+    background: white;
+    border: 0.15vw solid red;
+    border-radius: 10vw;
+    margin-top: 4vw;
+    margin-left: 51vw;
+    font-size: 0.95vw;
+    cursor: pointer;
+    color: red;
+}
+
+.button2:hover {
+    font-family: 'Gilroy', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    background: #d71212;
+}
+
+.it1 {
+    margin-top: 11vw;
+    border-radius: 1.5vw;
+    height: 35vw;
+    width: 35vw;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.katyaphoto2 {
+    background-image: url(https://static.tildacdn.com/tild3839-3935-4037-a431-373631663536/_1.png);
+    margin-left: 13vw;
+    margin-top: 2.7vw;
+    height: 15.65vw;
+    width: 15.65vw;
+}
+
+.katyaphoto3 {
+    background-image: url(https://static.tildacdn.com/tild3836-3433-4766-b737-383663633462/_2.png);
+    margin-left: 31.5vw;
+    margin-top: -15.7vw;
+    height: 15.65vw;
+    width: 15.65vw;
+}
+
+.katyaphoto4 {
+    background-image: url(https://static.tildacdn.com/tild6634-6130-4363-a339-353931303964/_3.png);
+    margin-left: 50vw;
+    margin-top: -15.7vw;
+    height: 15.65vw;
+    width: 15.65vw;
+}
+
+.katyaphoto5 {
+    background-image: url(https://static.tildacdn.com/tild6563-6561-4131-a632-306235333833/_4.png);
+    margin-left: 68.5vw;
+    margin-top: -15.7vw;
+    height: 15.65vw;
+    width: 15.65vw;
+    margin-bottom: 9vw;
+}
+
+.back3 {
+    background: url(https://thumb.tildacdn.com/tild3031-6263-4565-b837-353231656333/-/format/webp/photo.png) no-repeat;
+    background-size: 100vw 62vw;
+    height: 72vw;
+}
+
+.b1 {
+    border-top: solid 0.15vw white;
+    width: 73vw;
+    margin-left: 13.6vw;
+    height: 7vw;
+    margin-top: -63vw;
+}
+
+.connectwme {
+    font-size: 6vw;
+    color: yellow;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin-top: -0.5vw;
+}
+
+.piwite {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 1.2vw;
+    color: white;
+    margin-top: -4.3vw;
+    margin-left: 56vw;
+    font-weight: 550;
+}
+
+.tele {
+    margin-left: 13.6vw;
+    color: yellow;
+    font-family: "Gilroy", Arial, sans-serif;
+    font-size: 1vw;
+    font-weight: 600;
+    margin-top: 5vw;
+}
+
+.linktele {
+    margin-left: 13.6vw;
+    color: white;
+    font-family: "Gilroy", Arial, sans-serif;
+    font-size: 2.3vw;
+    margin-top: 1vw;
+    text-decoration: none;
+}
+
+.email {
+    margin-left: 13.6vw;
+    color: yellow;
+    font-family: "Gilroy", Arial, sans-serif;
+    font-size: 1vw;
+    font-weight: 600;
+    margin-top: 2.5vw;
+}
+
+.buttonx1 {
+    border-radius: 10vw;
+    margin-top: 4.3vw;
+    margin-left: 13.3vw;
+    font-size: 0.95vw;
+    font-weight: 600;
+    cursor: pointer;
+    width: 13vw;
+    height: 3.9vw;
+    background-color: transparent;
+    color: white;
+    border: 0.15vw solid white;
+}
+
+.buttonx1:hover {
+    background-color: red;
+    color: white;
+}
+
+.buttonx2, .buttonx3 {
+    border-radius: 10vw;
+    margin-top: 4.3vw;
+    margin-left: 1vw;
+    font-size: 0.95vw;
+    font-weight: 600;
+    cursor: pointer;
+    width: 13vw;
+    height: 3.9vw;
+    background-color: transparent;
+    color: white;
+    border: 0.15vw solid white;
+}
+
+.buttonx2:hover {
+    background-color: red;
+    color: white;
+}
+
+.buttonx3:hover {
+    background-color: red;
+    color: white;
+}
+
+.buttonx4 {
+    border-radius: 10vw;
+    margin-top: 1.3vw;
+    margin-left: 13.3vw;
+    font-size: 0.95vw;
+    font-weight: 600;
+    cursor: pointer;
+    width: 42vw;
+    height: 3.9vw;
+    background-color: transparent;
+    color: white;
+    border: 0.15vw solid white;
+}
+
+.buttonx4:hover {
+    background-color: red;
+    color: white;
+}
+
+.circle {
+    border-radius: 50vw;
+    margin-top: 2.3vw;
+    margin-left: 1vw;
+    font-size: 0.95vw;
+    font-weight: 600;
+    cursor: pointer;
+    width: 29vw;
+    height: 29vw;
+    background-color: transparent;
+    color: yellow;
+    border: 0.15vw solid yellow;
+}
+
+.circle:hover {
+    background-color: red;
+    color: white;
+}
+
+.back4 {
+    margin-top: 13vw;
+    background-color: #ff2b2f;
+    background-size: 100vw;
+    height: 17vw;
+}
+
+.first {
+    margin-left: 5.5vw;
+    margin-top: -13.5vw;
+}
+
+.eta a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.3vw;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.eta {
+    margin-bottom: 1.7vw;
+}
+
+.pol {
+    font-size: 0.95vw;
+    font-family: "Gilroy", Arial, sans-serif;
+    color: white;
+    margin-bottom: 0.27vw;
+    width:14.5vw;
+}
+
+.lin a {
+    font-size: 0.95vw;
+    font-family: "Gilroy", Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.lin {
+    margin-bottom: 0.090vw;
+    width: 14.5vw;
+}
+
+.lin a {
+    color: white; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+.lin a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 1px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.3s; /* Время эффекта */
+}
+
+.lin a:hover:after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 1px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.3s; /* Время эффекта */
+}
+
+.us {
+    color: white;
+    font-size: 2.3vw;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin-bottom: 1.3vw;
+}
+
+.con {
+    display: flex;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aaa {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 415px) {
+    .menu {
+        background: #7e2cff;
+        position: fixed;
+        top: -30px;
+        width: 100vw;
+    }
+
+        /*.it {*/
+        /*    margin-top: 5.9vw;*/
+        /*    border-radius: 2.5vw;*/
+        /*    height: 35vw;*/
+        /*    width: 35vw;*/
+        /*    background-repeat: no-repeat;*/
+        /*    background-size: cover;*/
+        /*    background-position: center center;*/
+        /*}*/
+
+        /*.item1 {*/
+        /*    background-image: url(https://thumb.tildacdn.com/tild6134-3763-4861-a130-613932316465/-/cover/560x560/center/center/-/format/webp/photo.jpg);*/
+        /*}*/
+
+        /*.item1:hover {*/
+        /*    background-image: url(https://static.tildacdn.com/tild3338-3034-4331-b633-323831343464/photo.jpg);*/
+        /*}*/
+
+        /*.spanporf, .spanporf2, .spanporf3, .spanporf4, .spanporf5, .spanporf6 {*/
+        /*    margin-top: 2.3vw;*/
+        /*}*/
+
+        /*.texting, .texting2, .texting3, .texting4, .texting5, .texting6 {*/
+        /*    color: red;*/
+        /*    font-family: 'Gilroy', Arial, sans-serif;*/
+        /*    margin-top: -3.2vw;*/
+        /*    font-size: 1.3vw;*/
+        /*}*/
+
+        /*.spanportfolio {*/
+        /*    background-color: white;*/
+        /*    color: red;*/
+        /*    border: 0.1vw solid red;*/
+        /*    border-radius: 30vw;*/
+        /*    padding: 0.6vw 0.9vw;*/
+        /*    font-size: 0.85vw;*/
+        /*    margin-left: 26vw;*/
+        /*}*/
+
+        /*.oic2 {*/
+
+        /*}*/
+
+        /*.item2 {*/
+        /*    background-image: url(https://thumb.tildacdn.com/tild6466-6166-4433-b866-373266663763/-/cover/560x560/center/center/-/format/webp/89.jpg);*/
+        /*}*/
+
+        /*.item2:hover {*/
+        /*    background-image: url(https://static.tildacdn.com/tild3564-6331-4866-b831-303562393638/-1.jpg);*/
+        /*}*/
+
+        /*.spanportfolio1 {*/
+        /*    background-color: white;*/
+        /*    color: red;*/
+        /*    border: 0.1vw solid red;*/
+        /*    border-radius: 30vw;*/
+        /*    padding: 0.6vw 0.9vw;*/
+        /*    font-size: 0.85vw;*/
+        /*    width: 4.9vw;*/
+        /*    margin-left: 17.5vw;*/
+        /*    margin-top: -1.8vw;*/
+        /*}*/
+
+        /*.spanportfolio2 {*/
+        /*    background-color: white;*/
+        /*    color: red;*/
+        /*    border: 0.1vw solid red;*/
+        /*    border-radius: 30vw;*/
+        /*    padding: 0.6vw 0.9vw;*/
+        /*    font-size: 0.85vw;*/
+        /*    margin-left: 25vw;*/
+        /*}*/
+
+        /*.item3 {*/
+        /*    background-image: url(https://thumb.tildacdn.com/tild3862-3637-4934-b363-333932306530/-/cover/560x560/center/center/-/format/webp/photo.jpg);*/
+        /*}*/
+
+        /*.item3:hover {*/
+        /*    background-image: url(https://static.tildacdn.com/tild3965-3937-4266-b931-346539363637/-2.jpg);*/
+        /*}*/
+
+        /*.spanportfolio3, .spanportfolio6, .spanportfolio7, .spanportfolio9 {*/
+        /*    background-color: white;*/
+        /*    color: red;*/
+        /*    border: 0.1vw solid red;*/
+        /*    border-radius: 30vw;*/
+        /*    padding: 0.6vw 0.9vw;*/
+        /*    font-size: 0.85vw;*/
+        /*    margin-left: 26.5vw;*/
+        /*}*/
+
+        /*.spanportfolio4 {*/
+        /*    background-color: white;*/
+        /*    color: red;*/
+        /*    border: 0.1vw solid red;*/
+        /*    border-radius: 30vw;*/
+        /*    padding: 0.6vw 0.9vw;*/
+        /*    font-size: 0.85vw;*/
+        /*    width: 5.5vw;*/
+        /*    margin-left: 18.5vw;*/
+        /*    margin-top: -1.8vw;*/
+        /*}*/
+
+        /*.oic4 {*/
+        /*    margin-left: 38vw;*/
+        /*    margin-top: -49.5vw;*/
+        /*}*/
+
+        /*.item4 {*/
+        /*    background-image: url(https://thumb.tildacdn.com/tild6461-6662-4338-b035-346339306565/-/cover/560x560/center/center/-/format/webp/photo.jpg);*/
+        /*}*/
+
+        /*.item4:hover {*/
+        /*    background-image: url(https://static.tildacdn.com/tild3234-6231-4736-a137-343731383763/-3.jpg);*/
+        /*}*/
+
+        /*.spanportfolio5 {*/
+        /*    background-color: white;*/
+        /*    color: red;*/
+        /*    border: 0.1vw solid red;*/
+        /*    border-radius: 30vw;*/
+        /*    padding: 0.6vw 0.9vw;*/
+        /*    font-size: 0.85vw;*/
+        /*    width: 2.7vw;*/
+        /*    margin-left: 21.2vw;*/
+        /*    margin-top: -1.8vw;*/
+        /*}*/
+
+        /*.item5 {*/
+        /*    background-image: url(https://thumb.tildacdn.com/tild6236-6531-4737-b439-386637336139/-/cover/560x560/center/center/-/format/webp/photo.jpg);*/
+        /*}*/
+
+        /*.item5:hover {*/
+        /*    background-image: url(https://static.tildacdn.com/tild3338-6639-4162-a239-646263313465/-5.jpg);*/
+        /*}*/
+
+        /*.oic6 {*/
+        /*    margin-left: 38vw;*/
+        /*    margin-top: -48.1vw;*/
+        /*}*/
+
+        /*.item6 {*/
+        /*    background-image: url(https://thumb.tildacdn.com/tild3031-6365-4832-b537-303535343332/-/cover/560x560/center/center/-/format/webp/photo.jpg);*/
+        /*}*/
+
+        /*.item6:hover {*/
+        /*    background-image: url(https://static.tildacdn.com/tild3930-3433-4634-b833-663165346261/-4.jpg);*/
+        /*}*/
+
+        /*.spanportfolio8 {*/
+        /*    background-color: white;*/
+        /*    color: red;*/
+        /*    border: 0.1vw solid red;*/
+        /*    border-radius: 30vw;*/
+        /*    padding: 0.6vw 0.9vw;*/
+        /*    font-size: 0.85vw;*/
+        /*    width: 7.2vw;*/
+        /*    margin-left: 16.8vw;*/
+        /*    margin-top: -1.8vw;*/
+        /*}*/
+
+
+}
